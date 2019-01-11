@@ -10,7 +10,7 @@ public class IOServer {
 
         ServerSocket serverSocket = new ServerSocket(8080);
 
-        // (1) 接收新连接线程
+        //接收新连接线程
         new Thread(() -> {
             while (true) {
                 try {
